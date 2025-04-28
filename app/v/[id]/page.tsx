@@ -69,18 +69,18 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.file_title}`,
         image: file.splash_img,
         description: `${file.file_title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://465647.pages.dev/v/${file.file_code}#${file.file_title}`,
+        url: `https://indodigilir.pages.dev/v/${file.file_code}#${file.file_title}`,
         datePublished: new Date(
             file.file_created + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://465647.pages.dev/favicon.ico'},
+            logo: 'https://indodigilir.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://465647.pages.dev'
+                url: 'https://indodigilir.pages.dev'
               }
         }
         const jsonLd2 = {
@@ -89,24 +89,24 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.file_title}`,
         image: file.player_img,
         description: `${file.file_title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://465647.pages.dev/v/${file.file_code}#${file.file_title}`,
+        url: `https://indodigilir.pages.dev/v/${file.file_code}#${file.file_title}`,
         datePublished: new Date(
             file.file_created + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://465647.pages.dev/favicon.ico'},
+            logo: 'https://indodigilir.pages.dev/favicon.ico'},
         author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://465647.pages.dev'},
+                url: 'https://indodigilir.pages.dev'},
         interactionStatistic: {
             '@type': `InteractionCounter`,
                 userInteractionCount: `${file.file_views}`,
             interactionType: {
                 '@type': `ReadAction`,
-                target: `https://465647.pages.dev/v/${file.file_code}#${file.file_title}`
+                target: `https://indodigilir.pages.dev/v/${file.file_code}#${file.file_title}`
             }  
         }
         }
